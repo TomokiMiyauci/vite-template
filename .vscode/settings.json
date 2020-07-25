@@ -1,9 +1,6 @@
 {
-    "vetur.format.defaultFormatter.html": "prettier",
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "vue"
-      ],
-    "editor.formatOnSave": true
+  "vetur.format.defaultFormatter.html": "prettier",
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "editor.formatOnSave": true,
+  "vetur.validation.template": false
 }

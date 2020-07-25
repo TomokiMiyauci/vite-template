@@ -1,19 +1,18 @@
 module.exports = {
-    root: true,
-    env: {
-      node: true
-    },
-    extends: [
-      'plugin:vue/vue3-recommended',
-    // または、
+  root: true,
+  env: {
+    node: true
+  },
+  plugins: ['prettier'],
+  extends: [
+    'plugin:vue/vue3-recommended',
     'plugin:vue/vue3-strongly-recommended',
-    // または
     'plugin:vue/vue3-essential',
-    ],
+    'prettier',
+    'prettier/vue'
+  ],
 
-    parserOptions: {
-      ecmaVersion: 2020
-    },
-    rules: {
-    }
+  parserOptions: {
+    ecmaVersion: 2020
   }
+}
