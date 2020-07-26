@@ -38,13 +38,14 @@
     "vite": "^1.0.0-rc.1",
     "vue-jest": "^5.0.0-alpha.1"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [
-      "yarn lint --fix",
-      "git add"
+      "yarn lint --fix"
     ]
   }
 }
