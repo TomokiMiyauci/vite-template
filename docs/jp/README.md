@@ -4,8 +4,8 @@
 [![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[:globe_with_meridians:English](/READEME.md)
-[:jp:日本語](/docs/js/README.md)
+[:globe_with_meridians: English](/README.md)
+[:jp: 日本語](/docs/jp/README.md)
 
 vue3/vite アプリケーションを vue/cli を使ったプロジェクトに近づけます。以下を自動的にセットアップします。
 

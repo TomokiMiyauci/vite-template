@@ -4,8 +4,8 @@
 [![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[:globe_with_meridians:English](/READEME.md)
-[:jp:日本語](/docs/js/README.md)
+[:globe_with_meridians: English](/README.md)
+[:jp: 日本語](/docs/jp/README.md)
 
 Bring your vue3/vite application closer to your project using vue/cli. Automatically set up the following:
 
