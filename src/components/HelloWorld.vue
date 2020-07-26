@@ -1,31 +1,17 @@
 <template>
-  <h1>{{ msg }}</h1>
-  <button @click="count++">count is: {{ count }}</button>
-  <p>
-    Edit <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p>
+  <button @click="inc">Bytt</button>
+  <p>{{ count }}</p>
 </template>
 
 <script lang="ts">
-import { ref } from "vue";
-export default {
-  props: {
-    msg: {
-      type: String,
-      default: "",
-    },
-  },
-  setup() {
-    console.log(2);
-    const a = ref(0);
+  import { ref } from 'vue'
 
-    return { a };
-  },
+  export default {
+    setup() {
+      const count = ref(0)
+      const inc = () => count.value++
 
-  methods: {
-    aaa() {
-      console.log(1);
-    },
-  },
-};
+      return { count, inc }
+    }
+  }
 </script>
