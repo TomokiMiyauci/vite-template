@@ -16,6 +16,9 @@
     "eslint-plugin-vue": "^7.0.0-beta.0",
     "prettier": "^2.0.5",
     "sass": "^1.26.10",
+    "stylelint": "^13.6.1",
+    "stylelint-config-recess-order": "^2.0.4",
+    "stylelint-config-standard": "^20.0.0",
     "vite": "^1.0.0-rc.1"
   }
 }

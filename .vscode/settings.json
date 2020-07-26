@@ -1,4 +1,10 @@
 {
+  "eslint.packageManager": "yarn",
+  "prettier.packageManager": "yarn",
+  "stylelint.packageManager": "yarn",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "vetur.format.defaultFormatter.html": "prettier",
   "eslint.validate": ["javascript", "javascriptreact", "vue"],
   "editor.formatOnSave": true,
