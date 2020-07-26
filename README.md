@@ -7,9 +7,9 @@
 [:globe_with_meridians:English](/READEME.md)
 [:jp:日本語](/docs/js/README.md)
 
-vue3/vite アプリケーションを vue/cli を使ったプロジェクトに近づけます。以下を自動的にセットアップします。
+Bring your vue3/vite application closer to your project using vue/cli. Automatically set up the following:
 
-<h2>:rocket: 機能</h2>
+<h2>:rocket: Feature</h2>
 
 - Eslint
 
@@ -31,5 +31,5 @@ vue3/vite アプリケーションを vue/cli を使ったプロジェクトに�
 
 - vscode setting
 
-<h3>:warning: 注意</h3>
-Storybookは、Vue3が対応していないためまだサポートされていません。
+<h3>:warning: Note</h3>
+Storybook is not yet supported as Vue3 is not supported.
