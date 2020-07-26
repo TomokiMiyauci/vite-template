@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "lint": "eslint --ext .ts,vue src",
     "test:unit": "jest",
     "test:e2e": "cypress run",
     "test:e2e:open": "cypress open",
@@ -23,7 +24,9 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue": "^7.0.0-beta.0",
+    "husky": "^4.2.5",
     "jest": "^26.1.0",
+    "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "sass": "^1.26.10",
     "start-server-and-test": "^1.11.2",
@@ -34,5 +37,14 @@
     "typescript": "^3.9.7",
     "vite": "^1.0.0-rc.1",
     "vue-jest": "^5.0.0-alpha.1"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue,ts,tsx}": [
+      "yarn lint --fix",
+      "git add"
+    ]
   }
 }
