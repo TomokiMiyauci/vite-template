@@ -1,13 +1,13 @@
 <template>
-  <img
-    alt="Vue logo"
-    src="./assets/logo.png"
-  >
+  <img alt="Vue logo" src="./assets/logo.png" />
+
+  <input class="aaa" />
+
   <HelloWorld msg="Hello Vue 3.0 + Vite" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from '/@/HelloWorld.vue'
 
 export default {
   name: 'App',
@@ -16,3 +16,13 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="scss">
+input {
+  color: red;
+}
+
+.aaa {
+  background-color: blue;
+}
+</style>
